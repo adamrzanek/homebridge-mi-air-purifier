@@ -31,10 +31,10 @@ function MiAirPurifier(log, config) {
     this.aqi = null;
 
     this.levels = [
-        [200, Characteristic.AirQuality.POOR],
-        [150, Characteristic.AirQuality.INFERIOR],
-        [100, Characteristic.AirQuality.FAIR],
-        [50, Characteristic.AirQuality.GOOD],
+        [55, Characteristic.AirQuality.POOR],
+        [35, Characteristic.AirQuality.INFERIOR],
+        [12, Characteristic.AirQuality.FAIR],
+        [5, Characteristic.AirQuality.GOOD],
         [0, Characteristic.AirQuality.EXCELLENT],
     ];
 
